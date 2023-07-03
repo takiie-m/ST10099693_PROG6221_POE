@@ -1,0 +1,40 @@
+﻿<Window x:Class="RecipeSystem_Poe.IngredientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecipeSystem_Poe"
+        mc:Ignorable="d"
+      Title="Ingredient Details" Height="500" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFF79898">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="Ingredient Name:" Grid.Row="0" Margin="69,18,567,2" FontWeight="Bold" />
+        <TextBox x:Name="ingredientNameTextBox" Margin="206,10,91,2" />
+
+        <Label Content="Quantity:" Grid.Row="1" Margin="69,27,630,7" Grid.RowSpan="6" FontWeight="Bold" />
+        <TextBox x:Name="quantityTextBox" Grid.Row="1" Margin="206,23,91,0" Grid.RowSpan="6" />
+
+        <Label Content="Unit:" Grid.Row="6" Margin="72,43,626,-55" FontWeight="Bold" />
+        <TextBox x:Name="unitTextBox" Grid.Row="4" Margin="204,43,93,-57" Grid.RowSpan="3" />
+
+        <Label Content="Calories:" Grid.Row="6" Margin="69,108,590,-130" FontWeight="Bold" />
+        <TextBox x:Name="caloriesTextBox" Grid.Row="6" Margin="206,102,95,-136" />
+
+        <Label Content="Food Group:" Grid.Row="6" Margin="69,181,598,-207" FontWeight="Bold" />
+        <TextBox x:Name="foodGroupTextBox" Grid.Row="6" Margin="206,181,95,-210" />
+
+        <Button Content="Save" Grid.Row="6" Margin="246,278,216,-331" Click="SaveButton_Click" BorderBrush="#FF1B1B1B" FontWeight="Bold" FontSize="14" />
+        <DockPanel LastChildFill="False" Grid.Row="6" Margin="0,57,0,-57" HorizontalAlignment="Center" Width="800"/>
+
+    </Grid>
+</Window>
+

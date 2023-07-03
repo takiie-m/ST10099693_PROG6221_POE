@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeSystem_Poe", "RecipeSystem_Poe\RecipeSystem_Poe.csproj", "{0ACA5462-CB5E-4196-9A41-728D277490E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACA5462-CB5E-4196-9A41-728D277490E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACA5462-CB5E-4196-9A41-728D277490E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACA5462-CB5E-4196-9A41-728D277490E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACA5462-CB5E-4196-9A41-728D277490E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E4CD01A-FE9E-4A4B-9C00-756E2D22944F}
+	EndGlobalSection
+EndGlobal
